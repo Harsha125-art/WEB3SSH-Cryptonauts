@@ -46,7 +46,7 @@ Community-focused: enables real students to be supported transparently
 
 📁 Google Drive (Support Docs, Screenshots, Pitch): https://drive.google.com/drive/folders/17NAPDv1O1zbQygB2mGdSMDMB7b0gH3MZ?usp=sharing
 
-🎥 Demo Video: 
+🎥 Demo Video: https://youtu.be/cYFFeqp6OV8?si=X54Fh5N93ipQfImw
 
 🧪 Known Limitations / Challenges
 
