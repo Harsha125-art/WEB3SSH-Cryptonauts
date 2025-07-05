@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 12px;
+}
+
+.hero {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background: #0056b3;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.illustration {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+.brand {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.student-btn,
+.donor-btn {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.student-btn {
+  background-color: #00b894;
+}
+
+.donor-btn {
+  background-color: #0984e3;
+}
+
+.student-btn:hover,
+.donor-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+}

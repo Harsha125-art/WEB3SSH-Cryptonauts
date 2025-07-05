@@ -1,10 +1,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const FundChain = await hre.ethers.getContractFactory("FundChain");
-  const contract = await FundChain.deploy();
-  await contract.deployed();
-  console.log("Contract deployed to:", contract.address);
+  const Contract = await hre.ethers.getContractFactory("InnoFund"); // ✅ Match your contract name
+  const contract = await Contract.deploy(); // ✅ Deploys the contract
+
+  await contract.waitForDeployment(); // ✅ CORRECT way in latest Hardhat/Ethers
+
+  console.log("Contract deployed to:", await contract.getAddress());
 }
 
 main().catch((error) => {
