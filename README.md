@@ -27,6 +27,8 @@ Invest as sponsors (expecting returns if successful, or refunds if not).
 ⚙️ Tech Stack
 🔗 Solidity (Smart Contract)
 
+🛠️ Hardhat
+
 💻 React.js (Frontend)
 
 🦊 MetaMask (Wallet integration)
